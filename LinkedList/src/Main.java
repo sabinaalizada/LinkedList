@@ -52,5 +52,8 @@ public class Main {
         doublyLinkedList.insertValue(position,newValue);
         doublyLinkedList.print();
 
+        doublyLinkedList.deleteNode(newValue);
+        doublyLinkedList.print();
+
     }
 }
